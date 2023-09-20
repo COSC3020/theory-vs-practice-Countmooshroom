@@ -14,3 +14,11 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+# Answers
+
+- First, the asymptotic analysis of an algorithm could be misleading because the analysis could make it look like the algorithm is quick, but each action in the algorithm could take a lot of time if it is built that way.  Second, as we saw from the data in class, two algorithms with the same time complexity could actually have very different run times.  Third, although the asymptotic analysis could make us think an algorithm is fast or slow, it really just shows us how the runtime changes as the input size or some variable changes.
+
+- The average time complexity of finding an element in a binary search tree is log(n).  If we take the complexity of the second set divided by the first set, it should give us the approximate factor by which the time increases: log(10000)/log(1000) = 4/3.  Therefore the time will be about 5 * 4/3 ≈ 6.67 seconds.
+
+- First, the algorithm could have constant factors of time that change the actual runtime for small sets although they don't affect it asymptotically.  Second, this difference could appear if the algorithm was run on a different computer with a slower processor or different hardware.  Third, it could even be this way on the same computer because of variances in background tasks, CPU limits for overheating, and dividing resources differently that would change the speed that the program runs.
