@@ -14,3 +14,11 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+# Answers
+
+- First, the asymptotic analysis of an algorithm could be misleading because it may have added constants that could greatly affect smaller data sets (Ex: $\theta$(n + 1000) is actually written as $\theta$(n)).  Second, there could also be constant multiples that are not shown (Ex: $\theta$(1000n) is written as $\theta$(n)).  Third, with big O notation, an algorithm can have a complexity in any set where the O(f(n)) grows at least as fast as the algorithm.  For example, the complexity T(n) = n could be an element of O(n), O($n^2$), and O($100^n$).
+
+- The average time complexity of finding an element in a binary search tree is log(n).  If we take the complexity of the second set divided by the first set, it should give us the approximate factor by which the time increases: log(10000)/log(1000) = 4/3.  Therefore the time will be about 5 * 4/3 ≈ 6.67 seconds.
+
+- First, the two different tests could be searching through different types of elements.  The first test could have been searching for integers while the second test was searching for long strings that take much longer to compare.  Second, this difference could appear if the algorithm was run on a different computer with a slower processor or different hardware.  Third, it could even be this way on the same computer because of variances in background tasks, CPU limits for overheating, and dividing resources differently that would change the speed that the program runs.
